@@ -7,7 +7,7 @@ Fall 2018
 A
 
 ## Note for This Class
-1. This class is a prerequisite course for CSCI-3753. In order to ensure that some content is not forgotten, it is best to take these two classes together.
+1. This class is a prerequisite course for CSCI-3753. In order to ensure that some content is not forgotten, it is best to take these two classes consecutively.
 
 ## Note
 1. This repo is for me to store my work for this class. So please **DO NOT** use it for plagiarism. Thus If you check out my work, please use it only as a way to get inspiration. Again, **DO NOT** use it for plagiarism.
