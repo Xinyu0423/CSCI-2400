@@ -1,0 +1,40 @@
+
+CS:APP Performance Lab: Grading Sheet for ac00-kernels.c
+
+Part 1: Compiling the driver
+
+gcc -Wall -O2   -c -o driver.o driver.c
+gcc -Wall -O2   -c -o kernels.o kernels.c
+gcc -Wall -O2   -c -o fcyc.o fcyc.c
+gcc -Wall -O2   -c -o clock.o clock.c
+gcc -Wall -O2 driver.o kernels.o fcyc.o clock.o -lm -o driver
+
+
+Part 2: Running the driver with the -g autograder option
+
+Teamname: ac00
+Member 1: Andrew Carnegie
+Email 1: ac00@nowhere.edu
+
+Rotate: Version = rotate() function:
+Dim		64	128	256	512	1024	Mean
+Your CPEs	10.0	16.4	28.2	48.4	60.0
+Baseline CPEs	14.7	40.1	46.4	65.9	94.5
+Speedup		1.5	2.4	1.6	1.4	1.6	1.7
+
+Smooth: Version = smooth() function:
+Dim		32	64	128	256	512	Mean
+Your CPEs	134.7	134.1	134.1	149.3	151.6
+Baseline CPEs	695.0	698.0	702.0	717.0	722.0
+Speedup		5.2	5.2	5.2	4.8	4.8	5.0
+
+
+bestscores:1.7:5.0:
+
+
+Part 3: Grade
+
+Rotate:  20 /  50
+Smooth:  31 /  50
+
+Total :  51 / 100

@@ -1,0 +1,15 @@
+#include "evenBits.c"
+#include "isEqual.c"
+#include "byteSwap.c"
+#include "rotateRight.c"
+#include "logicalNeg.c"
+
+#include "tmax.c"
+#include "sign.c"
+#include "isGreater.c"
+#include "subOK.c"
+#include "satAdd.c"
+#include "howManyBits.c"
+
+#include "float_half.c"
+#include "float_f2i.c"
